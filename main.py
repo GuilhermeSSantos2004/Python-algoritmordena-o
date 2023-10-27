@@ -84,7 +84,7 @@ chute = 25
 while True:
 
         aux = chute / 2
-        
+
         if aux ** 2 == chute:
                 print(aux)
         print(aux)
@@ -99,7 +99,6 @@ def raiz_binaria(num,precisao):
                 else:
                         inicio = chute
                 chute = (inicio)
-'''
 
 
 lista = [1,2,3,4,5,6,7]
@@ -115,4 +114,16 @@ while True:
 
 
 
-
+lista = [1,2,3,4,5,6,7]
+lista_menor = []
+pivo = lista[0]
+for elem in lista:
+    if elem<pivo:
+        lista_menor.append(elem)
+'''
+# a = adiciona no final do arquivo
+#
+string = "oi eu me chamo dan"
+f = open("teste.txt","a")
+f.write(string)
+f.close()
